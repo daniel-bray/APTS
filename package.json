@@ -1,0 +1,24 @@
+{
+  "name": "apts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-bray/APTS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-bray/APTS/issues"
+  },
+  "homepage": "https://github.com/daniel-bray/APTS#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
