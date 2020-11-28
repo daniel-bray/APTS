@@ -1,5 +1,5 @@
 "use strict";
-function add(n1, n2, showResult, phrase) {
+function adding(n1, n2, showResult, phrase) {
     // if (typeof n1 !== "number" || typeof n2 !== "number") {
     //   throw new Error("incorrect input");
     // }
@@ -13,6 +13,6 @@ function add(n1, n2, showResult, phrase) {
 }
 var number1 = 5;
 var number2 = 2.8;
-var printResult = true;
+var printResults = true;
 var resultPhrase = "Result is: ";
-var result = add(number1, number2, printResult, resultPhrase);
+var result = adding(number1, number2, printResults, resultPhrase);

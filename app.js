@@ -1,7 +1,12 @@
 "use strict";
-// const person: { name: string; age: number } = {
-var person = {
-    name: "Daniel",
-    age: 35,
-};
-console.log(person.name);
+var userInput;
+var userName;
+userInput: 5;
+userInput: "Daniel";
+if (typeof userInput === "string") {
+    userName = userInput;
+}
+function generateError(message, code) {
+    throw { message: message, errorCode: code };
+}
+generateError("An error occured", 500);
