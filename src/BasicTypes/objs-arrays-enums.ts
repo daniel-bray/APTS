@@ -17,7 +17,7 @@ enum Role {
   AUTHOR = "AUTHOR",
 }
 
-const person = {
+const person2 = {
   name: "Daniel",
   age: 35,
   hobbies: ["Sports", "Cooking"], // array type
@@ -27,13 +27,13 @@ const person = {
 let favoriteActivities: string[];
 favoriteActivities = ["Sports"];
 
-console.log(person.name);
+console.log(person2.name);
 
-for (const hobby of person.hobbies) {
+for (const hobby of person2.hobbies) {
   console.log(hobby.toUpperCase());
   // console.log(hobby.map()); // !!! Error !!!
 }
 
-if (person.role === Role.AUTHOR) {
+if (person2.role === Role.AUTHOR) {
   console.log("is author");
 }
